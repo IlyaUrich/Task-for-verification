@@ -1,17 +1,15 @@
-﻿using System.Drawing;
-
-namespace ConsoleApp4
+﻿namespace ConsoleApp4
 {
-    public struct Point 
+    public struct Point
     {
-        public int X {  get; set; }
+        public int X { get; set; }
         public int Y { get; set; }
 
 
     }
     public class Coordinates
     {
-        
+
         public static void Main(string[] args)
         {
             var array = new Point[4];
@@ -33,28 +31,28 @@ namespace ConsoleApp4
                 point.Y = int.Parse(coords[1]);
 
                 array[i] = point;
-                
-               i++;
+
+                i++;
             }
-            int minCoordX=0;
-            int minCoordY=0;
-            int maxCoordX=0;
-            int maxCoordY=0;
-            for (int i = 0;i < array.Length;i++) 
+            int minCoordX = 0;
+            int minCoordY = 0;
+            int maxCoordX = 0;
+            int maxCoordY = 0;
+            for (int i = 0; i < array.Length; i++)
             {
-                if (array[i].X < minCoordX) 
+                if (array[i].X < minCoordX)
                 {
                     minCoordX = array[i].X;
                 }
-                if (array[i].Y < minCoordY) 
+                if (array[i].Y < minCoordY)
                 {
                     minCoordY = array[i].Y;
                 }
-                if (array[i].X > maxCoordX) 
+                if (array[i].X > maxCoordX)
                 {
                     maxCoordX = array[i].X;
                 }
-                if (array[i].Y > maxCoordY) 
+                if (array[i].Y > maxCoordY)
                 {
                     maxCoordY = array[i].Y;
                 }
@@ -75,16 +73,17 @@ namespace ConsoleApp4
                 int X = int.Parse(coords2[0]);
                 int Y = int.Parse(coords2[1]);
 
-                if  (X >= minCoordX && X <= maxCoordX && Y >= minCoordY && Y <= maxCoordY) 
+                if (X >= minCoordX && X <= maxCoordX && Y >= minCoordY && Y <= maxCoordY)
                 {
-                    Console.WriteLine(" Координаты проверяемой точки находится в пределах заданной координатной плоскости ");
-                } else 
+                    Console.WriteLine(" Координаты проверяемой точки находятся в пределах заданной координатной плоскости ");
+                }
+                else
                 {
-                    Console.WriteLine("Координаты проверяемой точки НЕ находится в пределах заданной координатной плоскости");
+                    Console.WriteLine("Координаты проверяемой точки НЕ находятся в пределах заданной координатной плоскости");
                 }
 
             }
-           
+
         }
     }
 }

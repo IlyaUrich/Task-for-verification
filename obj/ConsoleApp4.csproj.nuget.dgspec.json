@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjectC#\\ConsoleApp4\\ConsoleApp4.csproj": {}
+    "C:\\Users\\Ilya\\source\\repos\\exept\\ConsoleApp4\\ConsoleApp4.csproj": {}
   },
   "projects": {
-    "D:\\MyProjectC#\\ConsoleApp4\\ConsoleApp4.csproj": {
+    "C:\\Users\\Ilya\\source\\repos\\exept\\ConsoleApp4\\ConsoleApp4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjectC#\\ConsoleApp4\\ConsoleApp4.csproj",
+        "projectUniqueName": "C:\\Users\\Ilya\\source\\repos\\exept\\ConsoleApp4\\ConsoleApp4.csproj",
         "projectName": "ConsoleApp4",
-        "projectPath": "D:\\MyProjectC#\\ConsoleApp4\\ConsoleApp4.csproj",
+        "projectPath": "C:\\Users\\Ilya\\source\\repos\\exept\\ConsoleApp4\\ConsoleApp4.csproj",
         "packagesPath": "C:\\Users\\Ilya\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjectC#\\ConsoleApp4\\obj\\",
+        "outputPath": "C:\\Users\\Ilya\\source\\repos\\exept\\ConsoleApp4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ilya\\AppData\\Roaming\\NuGet\\NuGet.Config",
